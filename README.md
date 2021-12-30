@@ -1,2 +1,0 @@
-# K10Python
-Python
