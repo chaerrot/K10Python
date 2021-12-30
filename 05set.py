@@ -12,7 +12,7 @@ empty_set = set()
 print(empty_set)
 
 # set()의 인자로 리스트를 전달하여 set으로 변환한다.
-n_set = set([0,2,4,6,8])
+even_set = set([0,2,4,6,8])
 print(even_set)
 
 # 생성과 동시에 초기화한다. 이 때 중복값은 제거된다.
@@ -37,6 +37,6 @@ print("myset4=", myset)
 # 집합연산
 set_a = {1, 3, 5, 7, 9}
 set_b = {1, 2, 5}
-print("합집합", set_a | set_b)
-print("교집합", set_a & set_b)
-print("차집합", set_a - set_b)
+print("합집합", set_a | set_b) # 1, 2, 3, 5, 7, 9
+print("교집합", set_a & set_b) # 1, 5
+print("차집합", set_a - set_b) # 3, 7, 9
